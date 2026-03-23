@@ -1,0 +1,11 @@
+Your task is to implement an Automotive Message Filter in SystemVerilog. The module must monitor an 11-bit CAN ID and 64-bit Data bus.
+
+Rules:
+
+If rst_n is low, all outputs must be 0.
+
+On the rising edge of clk, if can_valid_in is high AND can_id_in is equal to 11'h001, set filter_match_out to 1 and copy the data to data_out.
+
+In all other cases (wrong ID or invalid data), both outputs must be 0.
+
+The implementation must be sequential (use a clock).
