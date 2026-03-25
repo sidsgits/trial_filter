@@ -1,0 +1,11 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1774444871" />
+    <testcase name="test_round_robin" classname="test_scheduler_hidden" file="/home/siddhant/03_cursor_projects/trial_filter/tests/test_scheduler_hidden.py" lineno="33" time="0.0016155242919921875" sim_time_ns="70.0" ratio_time="43329.586776859505" />
+    <testcase name="test_stall_behavior" classname="test_scheduler_hidden" file="/home/siddhant/03_cursor_projects/trial_filter/tests/test_scheduler_hidden.py" lineno="59" time="0.0011746883392333984" sim_time_ns="70.0" ratio_time="59590.27400040592" />
+    <testcase name="test_deferred_preemption" classname="test_scheduler_hidden" file="/home/siddhant/03_cursor_projects/trial_filter/tests/test_scheduler_hidden.py" lineno="117" time="0.0009005069732666016" sim_time_ns="50.0" ratio_time="55524.27852793222" />
+    <testcase name="test_random_requests" classname="test_scheduler_hidden" file="/home/siddhant/03_cursor_projects/trial_filter/tests/test_scheduler_hidden.py" lineno="145" time="0.01041722297668457" sim_time_ns="530.0" ratio_time="50877.282859954685" />
+    <testcase name="test_reset_behavior" classname="test_scheduler_hidden" file="/home/siddhant/03_cursor_projects/trial_filter/tests/test_scheduler_hidden.py" lineno="176" time="0.0006172657012939453" sim_time_ns="30.0" ratio_time="48601.43684820394" />
+    <testcase name="test_stall_preemption_interaction" classname="test_scheduler_hidden" file="/home/siddhant/03_cursor_projects/trial_filter/tests/test_scheduler_hidden.py" lineno="222" time="0.0012290477752685547" sim_time_ns="70.0" ratio_time="56954.66149369544" />
+  </testsuite>
+</testsuites>
