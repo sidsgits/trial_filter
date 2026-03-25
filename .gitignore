@@ -1,0 +1,4 @@
+tags
+.venv
+.pytest_cache
+.python-version
